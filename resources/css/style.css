@@ -20,11 +20,9 @@ header{
   width: 100%;
   height: 80px;
   border-bottom: 1px solid black;
-
 }
 
 header span{
-  font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
@@ -36,7 +34,7 @@ header .logo{
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
-  width: 883px;
+  width: 200px;
 }
 
 nav{
@@ -52,18 +50,20 @@ nav a{
   color: black;
 }
 
-.column{
-  display: flex;
-  flex-direction: column;
-  margin-right: 32px;
-}
-
 .main{
   display: flex;
+  justify-content: center;
+  width: 100%;
   position: relative;
   top: 60px;
   padding-top: 58px;
   margin-bottom: 78px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
 
 .column.large {
@@ -169,7 +169,7 @@ h2 {
 .bites p{
   border-bottom: 1px solid black;
   padding: 11px 20px;
-  margin: 0;
+  margin: 0px;
 }
 
 footer{
@@ -190,7 +190,6 @@ footer{
 footer div{
   display: flex;
   align-items: center;
-
 }
 
 footer span{
